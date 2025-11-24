@@ -1,4 +1,19 @@
-fastapi 
-uvicorn 
-torch-geometric 
+fastapi
+uvicorn
+pydantic
+python-multipart
+
+numpy
 biopython
+
+torch==2.2.0+cpu
+torchvision==0.17.0+cpu
+torchaudio==2.2.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+pyg-lib==0.4.0
+torch-scatter==2.1.2
+torch-sparse==0.6.18
+torch-cluster==1.6.3
+torch-spline-conv==1.2.2
+torch-geometric==2.5.2
