@@ -44,8 +44,8 @@ We build a **graph where k-mers are nodes** and edges connect k-mers that appear
 
 ### Option 1: Web Interface 
 1.**Clone the repo and setup**
-cd GEN_RESIST
-pip install -r requirements.txt
+- cd GEN_RESIST
+- pip install -r requirements.txt
 
 2. **Prepare your genome file:**
    - Must be in FASTA format (`.fasta`, `.fna`, or `.fa`)
@@ -110,6 +110,7 @@ We check for 15 high-impact genes:
 - **Surveillance:** Track resistance trends in populations
 - **Research:** Study genotype-phenotype relationships
 - **Education:** Demonstrate ML in genomics
+
 
 
 
